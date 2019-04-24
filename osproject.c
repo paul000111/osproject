@@ -10,25 +10,3 @@ we use formula for
 1. turn around time=Exit time - arriaval time
 2. waiting time = turn arround time - burst time
 */
-#include<stdio.h>
-#include<conio.h>
-void main()
-{
-  int n,i,pt[n],pr[n];
-  char p[n];
-  printf("\t\t\t\t\tenter no of processes:\n");
-  printf("\t\t\t\t####################################\n");
-  scanf("%d",&n);
-  for(i=0;i<n;i++)
-  {
-  printf("\t\t\t\t\tenter process%d name:\n",i+1);
-  printf("\t\t\t\t####################################\n");
-  scanf("%s",&p[i]);
-  printf("\t\t\t\t\tenter process time:\n");
-  printf("\t\t\t\t####################################\n");
-  scanf("%d",&pt[i]);
-  printf("\t\t\t\t\tenter priority:\n");
-  printf("\t\t\t\t####################################\n");
-  scanf("%d",&pr[i]);
-  }
-}
